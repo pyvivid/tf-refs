@@ -1,0 +1,11 @@
+provider "aws"{
+    version = "4.64.0"
+    region = "us-west-2"
+    access_key = ADGHJKKDN8976GGYH
+    secret_ket = /ui09djhewfjfkjlsslsaddhhkdkskka=
+}
+
+resource "aws_instance" "my-first-aws-instance" {
+    ami = "ami-069aabeee6f53e7bf"
+    instance_type = "t2.micro"
+}
