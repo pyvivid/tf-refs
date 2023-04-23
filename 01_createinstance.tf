@@ -1,8 +1,8 @@
 provider "aws"{
     version = "4.64.0"
     region = "us-west-2"
-    access_key = AKIA35XN7SLMWAEPLLUA
-    secret_ket = V02t2598Lc+n8ABX1O+g6f1Fv0e1kMEV/V7ciFj5
+    access_key = "Enter_UR_Access_Key_Here"
+    secret_ket = "Enter_your_secret_key_here"
 }
 
 resource "aws_instance" "my-first-aws-instance" {
