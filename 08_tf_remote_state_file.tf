@@ -50,6 +50,6 @@ terraform {
     backend "s3" {
         bucket = "s3_bucket_name" # Create bucket in AWS first
         key    = "development/terraform_state"
-        region = "us-east-2"
+        region = "us-west-2"
     }
 }
