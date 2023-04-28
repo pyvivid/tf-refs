@@ -53,3 +53,5 @@ terraform {
         region = "us-west-2"
     }
 }
+
+### Note: tf server needs to be AWS configured ###
