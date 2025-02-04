@@ -1,3 +1,6 @@
+# The provider's related codes must be first setup by tf
+# to interact with the Cloud Provider.
+
 provider "aws"{
     version = "4.64.0"
     region = "us-west-2"
