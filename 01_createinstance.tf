@@ -6,6 +6,6 @@ provider "aws"{
 }
 
 resource "aws_instance" "my-first-aws-instance" {
-    ami = "ami-0db245b76e5c21ca1"
+    ami = "ami-0db245b76e5c21ca1" # Replace AMI according to the region and AZ in which you are deploying
     instance_type = "t2.micro"
 }
